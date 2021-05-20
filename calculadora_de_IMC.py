@@ -1,3 +1,10 @@
+def lin():
+    print('-'*30)
+
+lin()
+print('CALCULADORA DE I.M.C')
+lin()
+
 print("""Óla, vamos medir seu IMC !
 insira seu peso""")
 peso=int(input())
@@ -13,3 +20,7 @@ elif(imc>=25 and imc<30):
 elif(imc>30):
     print("Você está acima do seu peso ideal, procure um nutricionsta !")
 print("Espero ter ajudado, tenha um bom dia")
+
+lin()
+print('Desenvolvido por DavidTav')
+lin()
